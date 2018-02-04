@@ -1,0 +1,17 @@
+plugins {
+  id "java-library"
+}
+
+apply plugin: "idea"
+
+test {
+  useTestNG()
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  testImplementation "org.testng:testng:6.10"
+}

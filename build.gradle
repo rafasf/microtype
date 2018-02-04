@@ -15,6 +15,9 @@ repositories {
 dependencies {
   implementation "com.fasterxml.jackson.core:jackson-core:2.9.4"
   implementation "com.fasterxml.jackson.core:jackson-databind:2.9.4"
+  implementation "org.hibernate:hibernate-core:5.2.12.Final"
+  implementation "commons-beanutils:commons-beanutils:1.9.3"
 
   testImplementation "org.testng:testng:6.10"
+  testImplementation "com.h2database:h2:1.4.196"
 }

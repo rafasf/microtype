@@ -1,4 +1,4 @@
-package mtype.hibernate;
+package com.rafasf.microtype.hibernate;
 
 public class PersistentPersonId extends StringMicroTypeUserType<PersonId> {
   public PersistentPersonId() {

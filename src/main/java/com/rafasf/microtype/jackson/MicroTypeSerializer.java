@@ -1,9 +1,9 @@
-package mtype.jackson;
+package com.rafasf.microtype.jackson;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
-import mtype.MicroType;
+import com.rafasf.microtype.MicroType;
 
 import java.io.IOException;
 

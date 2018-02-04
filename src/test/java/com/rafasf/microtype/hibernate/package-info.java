@@ -4,7 +4,7 @@
     defaultForType = PersonId.class,
     typeClass = PersistentPersonId.class)
 )
-package mtype.hibernate;
+package com.rafasf.microtype.hibernate;
 
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;

@@ -1,4 +1,4 @@
-package mtype.hibernate;
+package com.rafasf.microtype.hibernate;
 
 import org.hibernate.HibernateException;
 import org.hibernate.usertype.UserType;

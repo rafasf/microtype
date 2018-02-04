@@ -1,6 +1,6 @@
-package mtype.hibernate;
+package com.rafasf.microtype.hibernate;
 
-import mtype.MicroType;
+import com.rafasf.microtype.MicroType;
 import org.hibernate.type.StringType;
 
 import java.sql.Types;

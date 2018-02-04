@@ -7,8 +7,8 @@
   <persistence-unit name="user-types" transaction-type="RESOURCE_LOCAL">
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-    <class>mtype.hibernate</class>
-    <class>mtype.hibernate.Person</class>
+    <class>com.rafasf.microtype.hibernate</class>
+    <class>com.rafasf.microtype.hibernate.Person</class>
 
     <properties>
       <property

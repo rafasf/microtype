@@ -1,4 +1,4 @@
-package mtype.jackson;
+package com.rafasf.microtype.jackson;
 
 import com.fasterxml.jackson.core.Version;
 import com.fasterxml.jackson.databind.module.SimpleModule;

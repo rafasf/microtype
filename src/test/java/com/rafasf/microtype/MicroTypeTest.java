@@ -1,8 +1,9 @@
-package mtype;
+package com.rafasf.microtype;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static mtype.MyType.myType;
+import static com.rafasf.microtype.MyType.myType;
 import static org.testng.Assert.*;
 
 public class MicroTypeTest {
@@ -31,8 +32,8 @@ public class MicroTypeTest {
     MyType someType = myType("yay");
 
     assertEquals(someType, someType);
-    assertEquals(myType("some value here"), myType("some value here"));
-    assertEquals(myType(null), myType(null));
+    Assert.assertEquals(myType("some value here"), myType("some value here"));
+    Assert.assertEquals(myType(null), myType(null));
   }
 
   @Test

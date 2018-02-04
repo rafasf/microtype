@@ -1,4 +1,4 @@
-package mtype;
+package com.rafasf.microtype;
 
 import java.util.Objects;
 

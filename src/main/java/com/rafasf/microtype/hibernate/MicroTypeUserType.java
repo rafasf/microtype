@@ -1,9 +1,8 @@
-package mtype.hibernate;
+package com.rafasf.microtype.hibernate;
 
-import mtype.MicroType;
+import com.rafasf.microtype.MicroType;
 import org.apache.commons.beanutils.MethodUtils;
 import org.hibernate.HibernateException;
-import org.hibernate.engine.spi.SessionImplementor;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;
 import org.hibernate.type.Type;
 

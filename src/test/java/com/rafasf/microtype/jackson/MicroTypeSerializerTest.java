@@ -1,13 +1,14 @@
-package mtype.jackson;
+package com.rafasf.microtype.jackson;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import mtype.MicroType;
+import com.rafasf.microtype.MicroType;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.Objects;
 
-import static mtype.jackson.SomeType.someType;
+import static com.rafasf.microtype.jackson.SomeType.someType;
 import static org.testng.Assert.assertEquals;
 
 public class MicroTypeSerializerTest {
@@ -38,7 +39,7 @@ public class MicroTypeSerializerTest {
 
   @Test
   void deserializeToRawValueIntoProperty() throws Exception {
-    assertEquals(
+    Assert.assertEquals(
       objectMapper.readValue(
         "\"valuable info\"",
         SomeType.class),

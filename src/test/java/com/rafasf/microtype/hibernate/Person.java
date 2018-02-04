@@ -1,4 +1,4 @@
-package mtype.hibernate;
+package com.rafasf.microtype.hibernate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

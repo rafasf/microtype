@@ -3,20 +3,20 @@ package com.rafasf.microtype;
 import java.util.Objects;
 
 public abstract class MicroType<T> {
-    private final T value;
+  private final T value;
 
-    protected MicroType(T value) {
-        this.value = value;
-    }
+  protected MicroType(T value) {
+    this.value = value;
+  }
 
-    public T value() {
-        return this.value;
-    }
+  public T value() {
+    return this.value;
+  }
 
-    @Override
-    public String toString() {
-        return String.valueOf(this.value());
-    }
+  @Override
+  public String toString() {
+    return String.valueOf(this.value());
+  }
 
   @Override
   public boolean equals(Object o) {
